@@ -1,0 +1,145 @@
+#x {
+	clear: none;
+	display: inline-block;
+	position: relative;
+	background-image: url(images/transparent.png);
+	background-repeat: repeat;
+	float: left;
+	text-shadow: 0px -1px 0px #c1bfbf;
+	text-transform: uppercase;
+	letter-spacing: -5px;
+	font-variant: small-caps;
+	margin: 6px;
+	text-overflow: ellipsis;
+	height: 27em;
+	width: 7em;
+	color: #fff6fc;
+	text-align: right;
+	word-wrap: break-word;
+	word-break: normal;
+	font-size: 35px;
+	font-family: Helvetica;
+}
+
+#x.digg {
+	padding: 0px;
+	clear: none;
+	display: list-item;
+	position: relative;
+	background-image: url(images/transparent.png);
+	background-repeat: repeat;
+	float: left;
+	text-shadow: 0px -1px 0px #c1bfbf;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	margin: 6px;
+	text-overflow: ellipsis;
+	height: 550px;
+	width: 270px;
+	color: #fff6fc;
+	text-align: left;
+	word-wrap: break-word;
+	word-break: normal;
+	font-size: 17px;
+	font-family: Helvetica;
+}
+
+h1 {
+	color: #887d5d;
+	text-shadow: 0px -28px #877859;
+	text-align: center;
+	word-spacing: -2px;
+	font-size: 90px;
+	font-family: Helvetica;
+}
+
+#x:hover {
+	background-color: black;
+}
+
+body {
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-image: url(images/pantone.jpg);
+}
+
+a {
+	display: inline;
+	position: static;
+	max-width: 200px;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	word-spacing: normal;
+	word-break: normal;
+	font-style: normal;
+	font-weight: normal;
+	text-overflow: clip;
+	font-variant: normal;
+	word-wrap: break-word;
+	font-size: 35px;
+	font-family: Helvetica;
+}
+
+a:hover {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	font-family: Helvetica;
+}
+
+#c {
+	padding: 22px;
+	margin-left: 21%;
+	display: block;
+	text-align: center;
+	float: none;
+	position: fixed;
+	height: auto;
+	width: 900px;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	top: auto;
+}
+
+h2 {
+	padding: 0px;
+	float: none;
+	display: block;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	font-size: 37px;
+	text-shadow: 0px -1px white;
+	text-overflow: ellipsis;
+	text-align: right;
+	letter-spacing: 0px;
+	word-wrap: break-word;
+	word-break: normal;
+	font-family: Helvetica;
+}
+
+tweet {
+	display: block;
+	letter-spacing: 1px;
+	word-wrap: break-word;
+	text-align: right;
+	list-style-type: katakana;
+	font-size: 12pt;
+	font-family: Helvetica;
+}
+
+tweet:hover {
+	display: block;
+	background-color: black;
+	letter-spacing: 1px;
+	word-wrap: break-word;
+	text-align: right;
+	list-style-type: none;
+	font-size: 12pt;
+	font-family: Helvetica;
+}
+
